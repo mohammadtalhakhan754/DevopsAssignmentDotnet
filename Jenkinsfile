@@ -37,7 +37,7 @@ pipeline {
         stage('Docker Push') {
             steps {
                 script {
-                    docker.withRegistry('https://index.docker.io/v1/', 'docker_login') {
+                    docker.withRegistry('https://index.docker.io/v1/', 'DockerHubTalha') {
                         docker.image("${IMAGE_NAME}:${IMAGE_TAG}").push()
                     }
                 }
