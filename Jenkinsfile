@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'talhakhan/dotnetwebapidocker'
+        IMAGE_NAME = 'mohammadtalhakhan754/jenkinsfordotnetapi'
         IMAGE_TAG = 'latest'
     }
 
