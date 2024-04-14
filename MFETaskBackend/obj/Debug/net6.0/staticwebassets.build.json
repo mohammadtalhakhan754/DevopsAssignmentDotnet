@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F4W+pm9RnQApQIGduHR5OOHDgq6RNJsHRRUxfTL3yWk=",
+  "Source": "MFETaskBackend",
+  "BasePath": "_content/MFETaskBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
